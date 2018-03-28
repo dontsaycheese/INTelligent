@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "294672576126",
+    "firebase_url": "https://voicerecog-9756d.firebaseio.com",
+    "project_id": "voicerecog-9756d",
+    "storage_bucket": "voicerecog-9756d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294672576126:android:aee393b6fe8c02ae",
+        "android_client_info": {
+          "package_name": "com.example.sheetal.texttospeech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294672576126-kdvri9meor7i9bnfumf04h4vmak5429b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvHIWGESoNPhs5o67xGZki-FNUzbPzN5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

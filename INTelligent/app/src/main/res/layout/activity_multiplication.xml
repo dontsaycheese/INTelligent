@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.sheetal.myapplication.multiplication">
+
+    <TextView
+        android:id="@+id/tvm"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/answer1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="        Text_view"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <EditText
+        android:id="@+id/answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/next1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="320dp"
+        android:layout_marginBottom="158dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

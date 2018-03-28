@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.sheetal.myapplication.Main2Activity">
+
+    <Button
+        android:id="@+id/StartAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/StartMul"
+        android:layout_alignEnd="@+id/StartMul"
+        android:layout_alignRight="@+id/StartMul"
+        android:layout_marginBottom="57dp"
+        android:backgroundTint="#ffffff"
+        android:text="       Addition Test       "
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/StartMul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiplication Test"
+        android:backgroundTint="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="175dp" />
+
+    <Button
+        android:id="@+id/past"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="Results" />
+</RelativeLayout>
